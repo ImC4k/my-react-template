@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import DefaultWelcomePage from './pages/DefaultWelcomePage';
+import GoogleAuthPage from './pages/GoogleAuthPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <DefaultWelcomePage />;
+  return <GoogleAuthPage />;
 }
 
 export default App;
